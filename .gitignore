@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Redis dump files
+dump.rdb
+dump_*.rdb
+appendonly.aof
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Bull queue jobs
+.queue/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Files uploaded to the application
+uploads/
+tmp/files_manager/
+
+# Ignore all files in /dist/ or /build/
+dist/
+build/
+
+# MongoDB
+*.lock
+*.bak
+*.mongo
+
+# MacOS files
+*.DS_Store
