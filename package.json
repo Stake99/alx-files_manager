@@ -1,0 +1,34 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "A simple Redis client application",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "build": "tsc",
+    "start-worker": "node workers/worker.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bull": "^4.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "image-thumbnail": "^1.0.10",
+    "mongodb": "^6.9.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^2.0.0",
+    "supertest": "^7.0.0",
+    "typescript": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "Motheo Modisaesi",
+  "license": "ISC"
+}
